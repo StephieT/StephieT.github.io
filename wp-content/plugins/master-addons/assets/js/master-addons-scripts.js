@@ -2472,16 +2472,18 @@
         // Wrapper Link
         MA_Wrapper_Link: function ($scope, $) {
 
-            $('[data-jltma-wrapper-link]').each(function() {
-                var link = $(this).data('jltma-wrapper-link');
-                $(this).on('click.jltmaElementOnClick', function() {
-                    if (link.is_external) {
-                        window.open(link.url);
-                    } else {
-                        location.href = link.url;
-                    }
-                })
-            });
+
+            // $('[data-jltma-wrapper-link]').each(function() {
+            //     var link = $(this).data('jltma-wrapper-link');
+            //     $(this).on('click.jltmaElementOnClick', function() {
+            //         if (link.is_external) {
+            //             window.open(link.url);
+            //         } else {
+            //             location.href = link.url;
+            //         }
+            //     })
+            // });
+
         },
 
         /**
@@ -2944,7 +2946,28 @@
     };
 
 
-
+    // Start of Wrapper Link
+    $('body').on('click.onMaWrapperLink', '[data-jltma-wrapper-link]', function () {
+        var $wrapper = $(this),
+            data = $wrapper.data('jltma-wrapper-link'),
+            id = $wrapper.data('id'),
+            anchor = document.createElement('a'),
+            anchorReal,
+            timeout;
+        anchor.id = 'master-addons-wrapper-link-' + id;
+        anchor.href = data.url;
+        anchor.target = data.is_external ? '_blank' : '_self';
+        anchor.rel = data.nofollow ? 'nofollow noreferer' : '';
+        anchor.style.display = 'none';
+        document.body.appendChild(anchor);
+        anchorReal = document.getElementById(anchor.id);
+        anchorReal.click();
+        timeout = setTimeout(function () {
+            document.body.removeChild(anchorReal);
+            clearTimeout(timeout);
+        });
+    });
+    // End of Wrapper Link
 
     $(window).on('elementor/frontend/init', function () {
 
@@ -2959,7 +2982,7 @@
         elementorFrontend.hooks.addAction('frontend/element_ready/global', Master_Addons.MA_Reveal);
         elementorFrontend.hooks.addAction('frontend/element_ready/global', Master_Addons.MA_Rellax);
         // elementorFrontend.hooks.addAction('frontend/element_ready/global', Master_Addons.MA_Entrance_Animation);
-        elementorFrontend.hooks.addAction('frontend/element_ready/global', Master_Addons.MA_Wrapper_Link);
+        // elementorFrontend.hooks.addAction('frontend/element_ready/global', Master_Addons.MA_Wrapper_Link);
 
 
         //Element Scripts

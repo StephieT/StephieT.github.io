@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>Serious Business Games &amp; Planspiele &#8211; Home</title>
+	<title>Serious Business Games &amp; Planspiele</title>
 	<atom:link href="/portfolio-category/planspiele/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Herzlich Willkommen bei BeSu!</description>
@@ -18,11 +18,11 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2019/08/cropped-BeSu.Solutions_Bildmarke-weiss_rund-32x32.png</url>
-	<title>Serious Business Games &amp; Planspiele &#8211; Home</title>
+	<title>Serious Business Games &amp; Planspiele</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
@@ -80,7 +80,7 @@
 						<div class="elementor-element elementor-element-691fe24 jltma-glass-effect-no elementor-invisible elementor-widget elementor-widget-image" data-id="691fe24" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 								<div class="elementor-image">
-												<img width="768" height="682" src="/wp-content/uploads/2019/08/Logo_A-768x682.png" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="/wp-content/uploads/2019/08/Logo_A-768x682.png 768w, /wp-content/uploads/2019/08/Logo_A-300x267.png 300w, /wp-content/uploads/2019/08/Logo_A.png 772w" sizes="(max-width: 768px) 100vw, 768px" />														</div>
+												<img decoding="async" width="768" height="682" src="/wp-content/uploads/2019/08/Logo_A-768x682.png" class="attachment-medium_large size-medium_large wp-image-1496" alt="" loading="lazy" srcset="/wp-content/uploads/2019/08/Logo_A-768x682.png 768w, /wp-content/uploads/2019/08/Logo_A-300x267.png 300w, /wp-content/uploads/2019/08/Logo_A.png 772w" sizes="(max-width: 768px) 100vw, 768px" />														</div>
 						</div>
 				</div>
 				<div class="elementor-element elementor-element-ba6ce3d jltma-glass-effect-no elementor-widget elementor-widget-spacer" data-id="ba6ce3d" data-element_type="widget" data-widget_type="spacer.default">
@@ -407,7 +407,7 @@ Gamification<br>Planspiel
 		<div class="jet-images-layout__image-loader"><span></span></div>
 		<a class="jet-images-layout__link " href="/wp-content/uploads/2019/08/20180921_PlanA-105-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="356e246">
 			<div class="jet-images-layout__image">
-				<img class="jet-images-layout__image-instance" src="/wp-content/uploads/2019/08/20180921_PlanA-105-1.jpg" alt="Johanna Wittig Portrait" loading="lazy">			</div>
+				<img decoding="async" class="jet-images-layout__image-instance" src="/wp-content/uploads/2019/08/20180921_PlanA-105-1.jpg" alt="Johanna Wittig Portrait" loading="lazy">			</div>
 			<div class="jet-images-layout__content"></div>
 		</a>
 	</div>
@@ -417,7 +417,7 @@ Gamification<br>Planspiel
 		<div class="jet-images-layout__image-loader"><span></span></div>
 		<a class="jet-images-layout__link " href="/wp-content/uploads/2019/08/1200-800-max-5.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="356e246">
 			<div class="jet-images-layout__image">
-				<img class="jet-images-layout__image-instance" src="/wp-content/uploads/2019/08/1200-800-max-5.jpg" alt="1200-800-max (5)" loading="lazy">			</div>
+				<img decoding="async" class="jet-images-layout__image-instance" src="/wp-content/uploads/2019/08/1200-800-max-5.jpg" alt="1200-800-max (5)" loading="lazy">			</div>
 			<div class="jet-images-layout__content"></div>
 		</a>
 	</div>
@@ -427,7 +427,7 @@ Gamification<br>Planspiel
 		<div class="jet-images-layout__image-loader"><span></span></div>
 		<a class="jet-images-layout__link " href="/wp-content/uploads/2019/08/20180921_PlanA-146.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="356e246">
 			<div class="jet-images-layout__image">
-				<img class="jet-images-layout__image-instance" src="/wp-content/uploads/2019/08/20180921_PlanA-146.jpg" alt="Johanna Wittig Portrait" loading="lazy">			</div>
+				<img decoding="async" class="jet-images-layout__image-instance" src="/wp-content/uploads/2019/08/20180921_PlanA-146.jpg" alt="Johanna Wittig Portrait" loading="lazy">			</div>
 			<div class="jet-images-layout__content"></div>
 		</a>
 	</div>
@@ -437,7 +437,7 @@ Gamification<br>Planspiel
 		<div class="jet-images-layout__image-loader"><span></span></div>
 		<a class="jet-images-layout__link " href="/wp-content/uploads/2019/08/20180921_PlanA-116.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="356e246">
 			<div class="jet-images-layout__image">
-				<img class="jet-images-layout__image-instance" src="/wp-content/uploads/2019/08/20180921_PlanA-116.jpg" alt="Johanna Wittig Portrait" loading="lazy">			</div>
+				<img decoding="async" class="jet-images-layout__image-instance" src="/wp-content/uploads/2019/08/20180921_PlanA-116.jpg" alt="Johanna Wittig Portrait" loading="lazy">			</div>
 			<div class="jet-images-layout__content"></div>
 		</a>
 	</div>
